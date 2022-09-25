@@ -423,7 +423,7 @@ print(epoch_start)
 
 
 
-"""### The training loop"""
+"""### The training loop, early stop embedding can be used to improve optimization on epochs"""
 
 NUM_EPOCHS = 205
 
