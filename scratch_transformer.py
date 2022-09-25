@@ -213,7 +213,7 @@ class Encoder(tf.keras.Model):
 
         return ffn_out, alignments
 
-"""### Create an instance of the Encoder"""
+"""### Create an instance of the Encoder, you can create multiple instances too"""
 
 H = 8
 NUM_LAYERS = 4
