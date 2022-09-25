@@ -397,8 +397,8 @@ def chinese_speech2text(duration = 3, language = 'zh-CN'):
     return r.recognize_sphinx(audio, language = language)
 
 xx=chinese_speech2text()
-## custom text halda ni hunxa microphone use nagarni vaye
+## add custom text, if microphone is not available for you
 #xx ="我 們 要 起 來"
 hello=normalize_string(xx)
 final_np=predict(hello)
-##aba final lai tacotron ma input dini
+##Give the final output ot the tacotron model
