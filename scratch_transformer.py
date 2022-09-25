@@ -14,9 +14,6 @@ from zipfile import ZipFile
 import time
 
 
-
-
-
 dat=np.load('ch_np.npz')
 data = dat['arr_0']
 data
